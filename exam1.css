@@ -1,0 +1,354 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bgimg{
+    background-image: url(https://images.pexels.com/photos/15804623/pexels-photo-15804623.jpeg?cs=srgb&dl=pexels-dtanpt-15804623.jpg&fm=jpg);
+    background-size: cover;
+}
+
+span{
+    font-family: "Playwrite BE VLG", system-ui;
+    color: orange;
+    font-size: 15px;
+}
+
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background: transparent;
+    color: black;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -49px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+h5{
+    font-size: 15px;
+    margin: 15px 0 10px;
+    color:red;
+    transition: color 0.3s ease;
+
+}
+p{
+    font-size: 15px;
+}
+
+/* Head Section */
+.main1 {
+    background: url() no-repeat center center/cover;
+    color: orange;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+.main1 h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main1 p {
+    font-size: 24px;
+    margin-bottom: 130px;
+}
+.btn1{
+    background: black;
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 13px;
+    transition:transform 0.3s ease, filter 0.3s ease;   
+}
+
+button {
+    background: black;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: transform 0.3s ease, filter 0.3s ease;   
+}
+button:hover{
+    color: aqua;
+    border: 2px solid aqua;
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+/* Packages Styles */
+.package {
+    background: rgba(0, 0, 0, 0.288);
+    margin: 60px 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.package h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.package h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.destination1 {
+    background-color:white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination1 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.destination1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.destination1:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+.destination1 h3 {
+    margin-bottom: 10px;
+}
+
+.destination1 p {
+    color: #777;
+}
+
+.bt{
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 10px;   
+}
+.bt:hover{
+    color: aqua;
+    border: 2px solid aqua;
+}
+
+/* fes */
+.h2 {
+    font-size: 48px;
+    
+}
+
+.fes{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    
+} 
+
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel-container {
+    position: relative; /* Allows absolute positioning of the button inside */
+}
+
+/* Button styling */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px; 
+    font-size: 10px;
+    cursor: pointer;
+    z-index: 10; 
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.carousel-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    transform: translate(-50%, -50%) scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+.spcl{
+    font-family: "Cinzel", system-ui;
+    font-weight: 600;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Enable vertical scroll only if needed */
+}
+
+h3, h6 {
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+h6 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 100%;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+    
+}
+.div002{
+    opacity: 0;
+}
+.div002:hover{
+    opacity: 1;
+}
+#h6{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    color: red;
+}
+
+.div99{
+    display: flex;
+    margin-left: 7px;
+    gap: 90px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.div99:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.div88{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+}
+#sell{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+}
+.div{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.star-rating {
+    font-size: 1rem;
+    color: #ddd;
+    
+}
+.star-rating .filled {
+    color: green;
+}
+/* grid */
+.imgx{
+  margin-left: 700px;
+  margin-top: -480px;
+}
